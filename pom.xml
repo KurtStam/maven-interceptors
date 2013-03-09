@@ -305,6 +305,16 @@ THE SOFTWARE.
   
   <repositories>
     <repository>
+      <id>repo.jenkins-ci.org</id>
+      <url>http://repo.jenkins-ci.org/public/</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
       <id>m.g.o-public</id>
       <url>http://maven.jenkins-ci.org:8081/content/groups/artifacts/</url>
       <releases>
